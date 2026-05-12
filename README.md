@@ -1,79 +1,50 @@
-# Portafolio web personal - Alejandro Lozano Restrepo
+# Mi Portafolio Web
 
-Portafolio profesional para Alejandro Lozano Restrepo, Backend Developer y Automation Engineer enfocado en Python, RPA, integracion de APIs y automatizacion empresarial. La interfaz usa una estetica cyber con fondo animado, tarjetas oscuras y acentos neon.
+Portafolio profesional de **Alejandro Lozano Restrepo**, desarrollado para presentar mi perfil como Backend Developer y Automation Engineer, con enfoque en Python, RPA, integracion de APIs REST y automatizacion de procesos empresariales.
 
-## Estructura
+## Sitio en vivo
 
-- `index.html`: contenido principal del portafolio.
-- `src/styles.css`: estilos responsivos y apariencia visual.
-- `src/main.js`: menu movil, filtros de proyectos, formulario de contacto y animacion tipo matriz.
-- `assets/developer-workspace.png`: imagen principal generada para el hero.
-- `assets/alejandro-avatar.png`: avatar publico tomado del perfil de GitHub.
-- `assets/favicon.svg`: icono de la pestana del navegador.
+https://alejodev17.github.io/Mi_portafolio_web/
 
-## Como verlo
+## Vista general
 
-Abre este archivo en tu navegador:
+Este sitio reune mi perfil profesional, stack tecnologico, experiencia, formacion, proyectos destacados y canales de contacto. La interfaz usa una estetica cyber/tech con fondo animado, tarjetas oscuras, acentos neon y una estructura responsive para escritorio y dispositivos moviles.
 
-```text
-index.html
-```
+## Caracteristicas
 
-Tambien puedes levantar un servidor local desde esta carpeta:
-
-```bash
-python -m http.server 5500
-```
-
-Luego entra a:
-
-```text
-http://localhost:5500
-```
-
-## Personalizacion rapida
-
-1. Actualiza el correo o celular en `index.html` y `src/main.js` si cambian mas adelante.
-2. Ajusta los proyectos privados si quieres agregar metricas, capturas o resultados.
-3. Cuando hagas publicos nuevos repositorios, cambia los enlaces `Consultar` por enlaces reales.
-
-## Publicar para que otros lo vean
-
-La opcion mas sencilla es GitHub Pages:
-
-1. Crea un repositorio publico en GitHub, por ejemplo `portafolio_web_personal`.
-2. Sube a ese repositorio el contenido de esta carpeta, dejando `index.html` en la raiz.
-3. En GitHub entra a `Settings`.
-4. En el menu lateral entra a `Pages`.
-5. En `Build and deployment`, elige `Deploy from a branch`.
-6. En `Branch`, selecciona `main` y carpeta `/root`.
-7. Guarda los cambios y espera unos minutos.
-
-Tu pagina quedara en una URL parecida a:
-
-```text
-https://AlejoDEV17.github.io/portafolio_web_personal/
-```
-
-Si quieres que la URL sea mas profesional, crea un repositorio llamado exactamente:
-
-```text
-AlejoDEV17.github.io
-```
-
-En ese caso la pagina quedaria en:
-
-```text
-https://AlejoDEV17.github.io/
-```
+- Diseno responsive.
+- Animacion de fondo tipo matriz.
+- Secciones de perfil, habilidades, experiencia, proyectos y contacto.
+- Formulario que prepara un mensaje en Gmail.
+- Enlaces directos a WhatsApp, LinkedIn y GitHub.
+- Favicon personalizado con marca `AL`.
+- Preparado para despliegue en GitHub Pages.
 
 ## Tecnologias
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
+- GitHub Pages
 
-## Fuentes de informacion
+## Estructura
 
-- GitHub: `https://github.com/AlejoDEV17`
-- LinkedIn: `https://www.linkedin.com/in/alejandro-lozano-restrepo-44631a230`
+```text
+.
+├── assets/
+│   ├── alejandro-avatar.png
+│   ├── developer-workspace.png
+│   └── favicon.svg
+├── src/
+│   ├── main.js
+│   └── styles.css
+├── index.html
+├── README.md
+└── .nojekyll
+```
+
+## Contacto
+
+- GitHub: https://github.com/AlejoDEV17
+- LinkedIn: https://www.linkedin.com/in/alejandro-lozano-restrepo-44631a230
+- Portafolio: https://alejodev17.github.io/Mi_portafolio_web/
