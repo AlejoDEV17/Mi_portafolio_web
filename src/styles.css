@@ -591,50 +591,6 @@ h3 {
   font-family: var(--mono);
 }
 
-.availability-section {
-  padding: 0 clamp(18px, 4vw, 56px);
-}
-
-.availability-panel {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 28px;
-  align-items: center;
-  padding: clamp(26px, 4vw, 42px);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background:
-    linear-gradient(135deg, rgba(55, 255, 193, 0.12), transparent 44%),
-    rgba(8, 18, 24, 0.82);
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(14px);
-}
-
-.availability-panel h2 {
-  max-width: 780px;
-  margin-bottom: 0;
-  font-size: clamp(28px, 3.8vw, 46px);
-}
-
-.availability-tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 10px;
-}
-
-.availability-tags span {
-  padding: 10px 12px;
-  border: 1px solid rgba(55, 255, 193, 0.24);
-  border-radius: 8px;
-  background: rgba(55, 255, 193, 0.08);
-  color: var(--neon);
-  font-family: var(--mono);
-  font-size: 13px;
-  font-weight: 800;
-  white-space: nowrap;
-}
-
 .contact-form {
   display: grid;
   gap: 16px;
@@ -767,8 +723,7 @@ h3 {
   .about-layout,
   .contact-layout,
   .services-layout,
-  .experience-layout,
-  .availability-panel {
+  .experience-layout {
     grid-template-columns: 1fr;
   }
 
@@ -780,10 +735,6 @@ h3 {
   .skills-grid,
   .projects-grid {
     grid-template-columns: 1fr;
-  }
-
-  .availability-tags {
-    justify-content: flex-start;
   }
 }
 
