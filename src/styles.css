@@ -415,6 +415,7 @@ h3 {
 .profile-data p:last-of-type,
 .skill-card p,
 .project-card p,
+.project-impact,
 .timeline-item p:last-child,
 .contact-copy {
   color: var(--muted);
@@ -521,6 +522,29 @@ h3 {
   font-family: var(--mono);
   font-weight: 800;
   text-decoration: none;
+}
+
+.project-impact {
+  display: grid;
+  gap: 8px;
+  padding: 0;
+  margin: 18px 0 24px;
+  list-style: none;
+}
+
+.project-impact li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 14px;
+}
+
+.project-impact li::before {
+  position: absolute;
+  left: 0;
+  color: var(--neon);
+  content: ">";
+  font-family: var(--mono);
+  font-weight: 800;
 }
 
 .project-card a:hover {
