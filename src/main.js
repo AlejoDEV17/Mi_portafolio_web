@@ -79,7 +79,7 @@ contactForm.addEventListener("submit", (event) => {
 
   const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=calivallelozano@gmail.com&su=${subject}&body=${body}`;
 
-  formStatus.textContent = "Mensaje preparado. Se abrira Gmail en una nueva pestana.";
+  formStatus.textContent = "Se abrira Gmail en una nueva pestana con el mensaje listo.";
   window.open(gmailUrl, "_blank", "noopener,noreferrer");
 });
 
