@@ -34,7 +34,8 @@ Este sitio reune mi perfil profesional, stack tecnologico, experiencia, formacio
 ├── assets/
 │   ├── alejandro-avatar.png
 │   ├── developer-workspace.png
-│   └── favicon.svg
+│   ├── favicon.svg
+│   └── preview.png
 ├── src/
 │   ├── main.js
 │   └── styles.css
