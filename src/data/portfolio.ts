@@ -109,6 +109,20 @@ export const projects = [
   }
 ];
 
+export const personalProjects = [
+  {
+    name: "LaunchPilot SaaS",
+    tags: ["Next.js", "TypeScript", "Prisma", "Stripe", "Auth.js"],
+    text: "Plataforma SaaS premium para onboarding de clientes, metricas de activacion, suscripciones, roles, panel administrativo, emails transaccionales y analitica.",
+    impact: [
+      "Arquitectura full stack con Next.js App Router",
+      "Autenticacion, roles y panel admin",
+      "Billing con Stripe y base de datos PostgreSQL"
+    ],
+    href: "https://github.com/AlejoDEV17/Plataforma_SaaS"
+  }
+];
+
 export const stackOrbit = ["Python", "RPA", "APIs", "PostgreSQL", "MongoDB", "Docker", "n8n", "UiPath"];
 
 export const contactChannels = [

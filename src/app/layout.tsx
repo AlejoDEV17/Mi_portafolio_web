@@ -16,6 +16,7 @@ const space = Space_Grotesk({
 });
 
 const siteUrl = "https://alejodev17.github.io/Mi_portafolio_web";
+const basePath = process.env.GITHUB_PAGES === "true" ? "/Mi_portafolio_web" : "";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
     images: ["/assets/preview.png"]
   },
   icons: {
-    icon: "/assets/favicon.svg"
+    icon: `${basePath}/assets/favicon.svg`
   }
 };
 

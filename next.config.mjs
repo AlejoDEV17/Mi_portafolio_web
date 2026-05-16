@@ -9,6 +9,9 @@ const nextConfig = {
   trailingSlash: true,
   basePath: isGithubPages ? "/Mi_portafolio_web" : "",
   assetPrefix: isGithubPages ? "/Mi_portafolio_web/" : "",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isGithubPages ? "/Mi_portafolio_web" : ""
+  },
   experimental: {
     typedRoutes: true
   }

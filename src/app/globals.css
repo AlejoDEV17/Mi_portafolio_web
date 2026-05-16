@@ -61,6 +61,10 @@ body::after {
   mix-blend-mode: overlay;
 }
 
+section[id] {
+  scroll-margin-top: 7.5rem;
+}
+
 @layer components {
   .section-kicker {
     @apply mb-4 inline-flex items-center gap-2 font-mono text-xs font-black uppercase tracking-[0.28em] text-mint;
