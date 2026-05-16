@@ -113,11 +113,11 @@ export const personalProjects = [
   {
     name: "LaunchPilot SaaS",
     tags: ["Next.js", "TypeScript", "Prisma", "Stripe", "Auth.js"],
-    text: "Plataforma SaaS premium para onboarding de clientes, metricas de activacion, suscripciones, roles, panel administrativo, emails transaccionales y analitica.",
+    text: "Plataforma B2B para startups SaaS, agencias y equipos de customer success que necesitan centralizar el onboarding de clientes, monitorear activacion, revisar revenue y gestionar suscripciones desde un solo panel.",
     impact: [
-      "Arquitectura full stack con Next.js App Router",
-      "Autenticacion, roles y panel admin",
-      "Billing con Stripe y base de datos PostgreSQL"
+      "Dashboard con metricas de activacion, revenue y health score",
+      "Onboarding, roles, panel admin y gestion de usuarios",
+      "Planes Starter, Growth y Scale preparados para Stripe"
     ],
     href: "https://github.com/AlejoDEV17/Plataforma_SaaS"
   }
