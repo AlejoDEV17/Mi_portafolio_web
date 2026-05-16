@@ -1,47 +1,65 @@
 # Mi Portafolio Web
 
-Portafolio profesional de **Alejandro Lozano Restrepo**, desarrollado para presentar mi perfil como Backend Developer y Automation Engineer, con enfoque en Python, RPA, integracion de APIs REST y automatizacion de procesos empresariales.
+Portafolio premium de **Alejandro Lozano Restrepo**, Backend & Automation Developer enfocado en Python, RPA, APIs, bases de datos y automatizacion de procesos empresariales.
 
 ## Sitio en vivo
 
 https://alejodev17.github.io/Mi_portafolio_web/
 
-## Vista general
+## Concepto
 
-Este sitio reune mi perfil profesional, stack tecnologico, experiencia, formacion, proyectos destacados y canales de contacto. La interfaz usa una estetica cyber/tech con fondo animado, tarjetas oscuras, acentos neon y una estructura responsive para escritorio y dispositivos moviles.
+Experiencia visual futurista inspirada en espacio, ciencia ficcion cinematografica, interfaces holograficas y glassmorphism premium. El objetivo es presentar perfil profesional, experiencia, formacion y casos empresariales privados con una estetica inmersiva y memorable.
+
+## Stack
+
+- Next.js 14
+- TypeScript
+- TailwindCSS
+- Framer Motion
+- Three.js / React Three Fiber
+- GSAP
+- Lenis smooth scrolling
+- shadcn-style UI components
+- GitHub Pages
 
 ## Caracteristicas
 
-- Diseno responsive.
-- Animacion de fondo tipo matriz.
-- Secciones de perfil, habilidades, experiencia, proyectos y contacto.
-- Formulario que prepara un mensaje en Gmail.
-- Enlaces directos a WhatsApp, LinkedIn y GitHub.
-- Favicon personalizado con marca `AL`.
-- Preparado para despliegue en GitHub Pages.
+- Hero cinematografico con escena espacial 3D.
+- Particulas, estrellas y planeta holografico con profundidad.
+- Navbar flotante glassmorphism.
+- Scroll suave y reveal animations.
+- Cards premium para perfil, skills, experiencia, formacion y proyectos.
+- Proyectos presentados como casos empresariales privados.
+- Contacto por Gmail, WhatsApp, llamada, GitHub y LinkedIn.
+- Preview social Open Graph.
+- Export estatico listo para GitHub Pages.
 
-## Tecnologias
+## Desarrollo local
 
-- HTML5
-- CSS3
-- JavaScript
-- GitHub Pages
+```bash
+npm install
+npm run dev
+```
 
-## Estructura
+## Build
+
+```bash
+npm run typecheck
+npm run lint
+npm run build
+```
+
+## Estructura principal
 
 ```text
-.
-├── assets/
-│   ├── alejandro-avatar.png
-│   ├── developer-workspace.png
-│   ├── favicon.svg
-│   └── preview.png
-├── src/
-│   ├── main.js
-│   └── styles.css
-├── index.html
-├── README.md
-└── .nojekyll
+src/
+├── app/
+├── components/
+│   ├── sections/
+│   ├── ui/
+│   └── visual/
+├── data/
+└── lib/
 ```
 
 ## Contacto
