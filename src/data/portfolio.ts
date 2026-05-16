@@ -139,4 +139,21 @@ export const contactChannels = [
   }
 ];
 
-export const designSignals = ["Glass UI", "Cinematic motion", "3D orbit", "Cosmic depth", "Premium UX", "Awwwards mood"];
+export const heroHighlights = [
+  {
+    label: "Enfoque",
+    value: "Backend y automatizacion"
+  },
+  {
+    label: "Stack principal",
+    value: "Python, APIs y bases de datos"
+  },
+  {
+    label: "Impacto",
+    value: "Menos tareas manuales, mas eficiencia"
+  },
+  {
+    label: "Tipo de soluciones",
+    value: "Herramientas internas escalables"
+  }
+];

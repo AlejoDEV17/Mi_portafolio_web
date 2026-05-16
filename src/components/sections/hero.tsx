@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Sparkles } from "lucide-react";
 import { buttonClassName } from "@/components/ui/button";
-import { designSignals, profile } from "@/data/portfolio";
+import { heroHighlights, profile } from "@/data/portfolio";
 import { cn } from "@/lib/utils";
 
 export function Hero() {
@@ -27,7 +27,7 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.1 }}
             className="max-w-4xl text-balance text-5xl font-black leading-[0.95] text-star drop-shadow-2xl sm:text-7xl lg:text-8xl"
           >
-            Ingenieria backend para procesos que necesitan orbitar mas alto.
+            Soluciones backend y automatizacion para procesos empresariales.
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 22 }}
@@ -44,7 +44,7 @@ export function Hero() {
             className="mt-9 flex flex-wrap gap-3"
           >
             <a className={buttonClassName("primary")} href="#proyectos">
-              Ver misiones
+              Ver proyectos
             </a>
             <a className={buttonClassName("glass")} href="#contacto">
               Iniciar contacto
@@ -61,19 +61,22 @@ export function Hero() {
           <div className="absolute -inset-6 rounded-[3rem] bg-gradient-to-br from-mint/20 via-plasma/10 to-aurora/20 blur-3xl" />
           <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.07] p-5 shadow-glow backdrop-blur-2xl">
             <div className="mb-5 flex items-center justify-between">
-              <span className="font-mono text-xs uppercase tracking-[0.24em] text-mint">Mission control</span>
-              <span className="rounded-full bg-mint/10 px-3 py-1 font-mono text-xs font-semibold text-mint">online</span>
+              <span className="font-mono text-xs uppercase tracking-[0.24em] text-mint">Perfil profesional</span>
+              <span className="rounded-full bg-mint/10 px-3 py-1 font-mono text-xs font-semibold text-mint">disponible</span>
             </div>
             <div className="grid gap-3">
-              {designSignals.map((signal, index) => (
+              {heroHighlights.map((item, index) => (
                 <div
-                  key={signal}
+                  key={item.label}
                   className={cn(
-                    "flex items-center justify-between rounded-2xl border border-white/10 bg-void/45 px-4 py-4 text-sm text-mist",
+                    "grid gap-1 rounded-2xl border border-white/10 bg-void/45 px-4 py-4 text-sm text-mist sm:grid-cols-[1fr_auto] sm:items-center sm:gap-4",
                     index === 0 && "border-mint/30 bg-mint/10 text-star"
                   )}
                 >
-                  <span>{signal}</span>
+                  <div>
+                    <span className="block font-mono text-[0.68rem] uppercase tracking-[0.2em] text-mint">{item.label}</span>
+                    <span className="mt-1 block text-base font-semibold text-star">{item.value}</span>
+                  </div>
                   <span className="font-mono text-mint">0{index + 1}</span>
                 </div>
               ))}

@@ -8,7 +8,7 @@ export function ProfileSection() {
       <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-[0.88fr_1.12fr]">
         <div data-reveal>
           <p className="section-kicker">Perfil</p>
-          <h2 className="section-title">Automatizacion backend para operaciones con precision orbital.</h2>
+          <h2 className="section-title">Automatizacion backend para operaciones mas eficientes.</h2>
         </div>
         <GlassCard data-reveal className="p-6 sm:p-8" intense>
           <div className="relative z-10 grid gap-8 md:grid-cols-[150px_1fr]">
